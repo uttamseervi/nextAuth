@@ -23,6 +23,7 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
                 pass: "e8a5c921998580"
             }
         });
+        console.log(process.env.DOMAIN)
         const mailOption = {
             from: "seerviu690@gmail.com",
             to: email,
